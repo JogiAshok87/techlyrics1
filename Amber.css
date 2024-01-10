@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://media.istockphoto.com/id/1272163106/photo/large-house-with-steep-roof-and-side-entry-three-car-garage.jpg?s=612x612&w=0&k=20&c=zCHxziqhujITjR0IMoCPFxFDPypIs6fMgpKdYHKWzaA=");
+    background-size: cover;
+    text-align: center;
+}
+
+.bg-navbar {
+    background-color: transparent;
+}
+
+.heading {
+    color: white;
+}
+
+.para {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header-right {
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    .header-right {
+        display: none;
+    }
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+
+.amber-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.option {
+    font-weight: bold;
+}
+
+.list-style {
+    color: black;
+}
+
+.btn-style {
+    color: black;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.hero-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-feature {
+    flex: 1 1 auto;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-ass {
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.search-img {
+    height: 200px;
+    width: 20%;
+}
+
+.search-box {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    border-width: 0px;
+}
+
+.search-box-input {
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    border-width: 0px;
+}
+
+.search-icon-btn {
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: white;
+}
